@@ -3,7 +3,9 @@ import json, requests
 from pprint import pprint
 import pandas as pd
 
+
 END_POINT_1 = 'https://api.adviceslip.com/advice'
+
 
 def Random_advice(url):
     '''Getting the random advice using first api link or url'''
@@ -20,7 +22,10 @@ def Random_advice(url):
     except Exception as e:
         print('Something Went Wrong ',e)
 
+
+
 if __name__ == "__main__":
 
     Random_advice(END_POINT_1)
+    
     print('Code Completed 🔥')
