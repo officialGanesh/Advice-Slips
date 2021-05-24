@@ -6,7 +6,6 @@ import pandas as pd
 
 END_POINT_1 = 'https://api.adviceslip.com/advice'
 
-
 def Random_advice(url):
     '''Getting the random advice using first api link or url'''
 
@@ -26,6 +25,5 @@ def Random_advice(url):
 
 if __name__ == "__main__":
 
-    Random_advice(END_POINT_1)
-    
+    Random_advice(END_POINT_1)    
     print('Code Completed 🔥')
