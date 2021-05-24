@@ -1,8 +1,6 @@
 # Import the required modules
 import json, requests
 from pprint import pprint
-import pandas as pd
-
 
 END_POINT_1 = 'https://api.adviceslip.com/advice'
 
@@ -30,6 +28,7 @@ def Advice_by_query():
     
     try:
         
+        
         for i in range(5):
             query += 1
             url = f'{base_url}{query}'
@@ -39,9 +38,9 @@ def Advice_by_query():
             # Storing the json data
             with open(f'Json_data_2/advice{i}.json','w') as f:
                 source = req.json()
-
                 f.write(json.dumps(source,indent=2))
-            
+
+           
     except Exception as e:
         print('Something Went Wrong ',e)
 
