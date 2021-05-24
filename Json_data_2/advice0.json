@@ -1,0 +1,16 @@
+{
+  "total_results": "2",
+  "query": "1",
+  "slips": [
+    {
+      "id": 114,
+      "advice": "Step 1. Give a shit. Step 2. Don't be a dick. Step 3. Know when to let go.",
+      "date": "2015-12-10"
+    },
+    {
+      "id": 181,
+      "advice": "Rule number 1: Try not to die. Rule number 2: Don't be a dick.",
+      "date": "2017-03-07"
+    }
+  ]
+}
